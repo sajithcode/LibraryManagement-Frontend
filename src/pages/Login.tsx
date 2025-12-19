@@ -19,9 +19,14 @@ export default function Login() {
   return (
     <div className="p-6 max-w-xl mx-auto">
       <h2 className="text-xl font-bold mb-4">Login</h2>
-      <form onSubmit={handleSubmit} className="space-y-6 bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+      <form
+        onSubmit={handleSubmit}
+        className="space-y-6 bg-white p-8 rounded-xl shadow-lg border border-gray-100"
+      >
         <div className="space-y-2">
-          <label className="block text-sm font-medium text-gray-700">Email</label>
+          <label className="block text-sm font-medium text-gray-700">
+            Email
+          </label>
           <input
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-200 bg-gray-50 focus:bg-white"
             placeholder="Email"
@@ -31,7 +36,9 @@ export default function Login() {
           />
         </div>
         <div className="space-y-2">
-          <label className="block text-sm font-medium text-gray-700">Password</label>
+          <label className="block text-sm font-medium text-gray-700">
+            Password
+          </label>
           <input
             type="password"
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-200 bg-gray-50 focus:bg-white"
