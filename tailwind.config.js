@@ -2,8 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Fira Sans", "sans-serif"],
+      },
+    },
   },
   plugins: [],
-}
-
+};
